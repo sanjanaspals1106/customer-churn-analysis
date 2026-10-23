@@ -1,0 +1,56 @@
+{
+  "model": "soft_vote",
+  "n_train": 5634,
+  "n_holdout": 1409,
+  "majority_baseline_accuracy": 0.7345635202271115,
+  "roc_auc": 0.849277945697383,
+  "pr_auc": 0.6477305763116796,
+  "brier": 0.1349412765118128,
+  "at_0_5": {
+    "threshold": 0.5,
+    "accuracy": 0.8048261178140526,
+    "precision": 0.6612377850162866,
+    "recall": 0.5427807486631016,
+    "f1": 0.5961820851688693,
+    "tn": 931,
+    "fp": 104,
+    "fn": 171,
+    "tp": 203
+  },
+  "at_tuned": {
+    "threshold": 0.34000000000000014,
+    "accuracy": 0.7743080198722498,
+    "precision": 0.5576131687242798,
+    "recall": 0.7245989304812834,
+    "f1": 0.6302325581395349,
+    "tn": 820,
+    "fp": 215,
+    "fn": 103,
+    "tp": 271
+  },
+  "accuracy_ci95": [
+    0.7842441447835344,
+    0.8254080908445706
+  ],
+  "permutation_importance": {
+    "tenure": 0.2005,
+    "Contract": 0.06003,
+    "TotalCharges": 0.01854,
+    "InternetService": 0.00898,
+    "OnlineSecurity": 0.00409,
+    "PaymentMethod": 0.00352,
+    "TechSupport": 0.00281,
+    "PaperlessBilling": 0.00244,
+    "MonthlyCharges": 0.0019,
+    "MultipleLines": 0.00107,
+    "OnlineBackup": 0.00084,
+    "PhoneService": 0.00048,
+    "gender": 0.00031,
+    "StreamingMovies": 0.00013,
+    "Partner": 5e-05,
+    "Dependents": -0.00011,
+    "DeviceProtection": -0.00024,
+    "SeniorCitizen": -0.00037,
+    "StreamingTV": -0.00151
+  }
+}
